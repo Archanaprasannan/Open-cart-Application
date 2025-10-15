@@ -33,7 +33,7 @@ public class LoginPage {
 	@Step("getting login page title")
 	public String getLoginPageTitle() {
 		String title = eleutil.waitForTitleIs(DEFAULT_TIMEOUT, LOGIN_PAGE_TITLE);
-		System.out.println("Login page title: " + title);
+		System.out.println("Login page title::: " + title);
 		return title;
 	}
 
