@@ -1,0 +1,8 @@
+public class Newchange {
+	int r=90;
+	By firtsname = By.id("first-name");
+
+	public void feature1() {
+		System.out.println("Feature 1 released");
+	}
+}
